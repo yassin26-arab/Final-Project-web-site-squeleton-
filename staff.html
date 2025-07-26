@@ -1,67 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Set character encoding to UTF-8 -->
   <meta charset="UTF-8">
+
+  <!-- Page title shown in the browser tab -->
   <title>Chef Mohamed - Spoon Chef</title>
+
+  <!-- Link to external CSS file for styling -->
   <link rel="stylesheet" href="css.css" />
 </head>
+
+<!-- Add a class to body for page-specific styling -->
 <body class="staff-page">
 
+  <!-- Header section -->
   <header>
+    <!-- Top part of header: contains logo, title, and menu button -->
     <div class="header-top" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 20px;">
+      <!-- Restaurant logo image -->
       <img src="Logo.ico" alt="Restaurant Logo" style="height: 60px;" />
+      
+      <!-- Main title of the restaurant centered, flex-grow to fill available space -->
       <h1 style="color: black; margin: 0; flex-grow: 1; text-align: center;">Spoon Chef</h1>
+      
+      <!-- Hamburger menu button for small screens, with accessible label -->
       <button class="menu-btn" aria-label="Menu">&#9776;</button>
     </div>
+    
+    <!-- Navigation menu -->
     <nav class="main-nav">
       <ul>
+        <!-- Navigation links to other pages -->
         <li><a href="Home page.html">Home</a></li>
         <li><a href="menu.html">Menu</a></li>
         <li><a href="staff.html">Staff</a></li>
-        <li><a href="SignUp.html">Contact</a>
-        <li><a href="Contact.html">Contact</a>
+        <li><a href="SignUp.html">Contact</a></li>
+        <li><a href="Contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
-<main style="padding: 20px;">
-  <h1>Meet Our Team</h1>
 
-  <!-- Chef Mohamed -->
-  <section style="margin-bottom: 40px;">
-    <h2>Chef Mohamed</h2>
-    <img src="Chef mohamed.jpg" alt="Chef Mohamed" style="max-width: 250px; border-radius: 10px; display: block; margin: 0 auto 20px;" />
-    <p>
-      Chef Mohamed is a highly experienced culinary professional with over 30 years of international expertise in Mediterranean, French, Italian, and Tunisian cuisine. 
-      From prestigious hotels in Tunisia, Saudi Arabia, and Algeria to managing his own restaurant, Chef Mohamed brings passion, skill, and creativity to every dish.
-    </p>
-    <button onclick="toggleDetails()">Show More</button>
-    <div id="details" style="display: none; margin-top: 20px;">
-      <p><strong>Experience:</strong> Hilton, Abou Nawas, Dallah Group, La Fourchette, El Mandaloune, and more.</p>
-      <p><strong>Certifications:</strong> CAP, BTH, BTS in Culinary Arts – AAA Level.</p>
-      <p><strong>Specialties:</strong> Mediterranean, Dietetic, Gastronomic, French, and Italian Cooking.</p>
-    </div>
-  </section>
+  <!-- Main content of the page -->
+  <main style="padding: 20px;">
+    <!-- Page heading -->
+    <h1>Meet Our Team</h1>
 
-  <!-- Yassin Comptoiriste -->
-  <section>
-    <h2>Yassin - Comptoiriste</h2>
-    <img src="Yassin(comptoiriste) .jpg" alt="Chef Mohamed" style="max-width: 250px; border-radius: 10px; display: block; margin: 0 auto 20px;" />
-    <p><strong>Experience:</strong> 5 years working with Chef Mohamed during summers.</p>
-    <p><strong>Education:</strong> Baccalaureate 2025.</p>
-  </section>
-</main>
+    <!-- Section about Chef Mohamed -->
+    <section style="margin-bottom: 40px;">
+      <h2>Chef Mohamed</h2>
+      <!-- Chef Mohamed's photo, centered and with rounded corners -->
+      <img src="Chef mohamed.jpg" alt="Chef Mohamed" style="max-width: 250px; border-radius: 10px; display: block; margin: 0 auto 20px;" />
+      
+      <!-- Short introduction paragraph about Chef Mohamed -->
+      <p>
+        Chef Mohamed is a highly experienced culinary professional with over 30 years of international expertise in Mediterranean, French, Italian, and Tunisian cuisine. 
+        From prestigious hotels in Tunisia, Saudi Arabia, and Algeria to managing his own restaurant, Chef Mohamed brings passion, skill, and creativity to every dish.
+      </p>
 
+      <!-- Button that toggles extra details about Chef Mohamed -->
+      <button onclick="toggleDetails()">Show More</button>
+
+      <!-- Hidden detailed info section, initially hidden -->
+      <div id="details" style="display: none; margin-top: 20px;">
+        <p><strong>Experience:</strong> Hilton, Abou Nawas, Dallah Group, La Fourchette, El Mandaloune, and more.</p>
+        <p><strong>Certifications:</strong> CAP, BTH, BTS in Culinary Arts – AAA Level.</p>
+        <p><strong>Specialties:</strong> Mediterranean, Dietetic, Gastronomic, French, and Italian Cooking.</p>
+      </div>
+    </section>
+
+    <!-- Section about staff member Yassin -->
+    <section>
+      <h2>Yassin - Comptoiriste</h2>
+      <!-- Yassin's photo, styled similarly to Chef Mohamed's -->
+      <img src="Yassin(comptoiriste) .jpg" alt="Chef Mohamed" style="max-width: 250px; border-radius: 10px; display: block; margin: 0 auto 20px;" />
+      
+      <!-- Brief info about Yassin -->
+      <p><strong>Experience:</strong> 5 years working with Chef Mohamed during summers.</p>
+      <p><strong>Education:</strong> Baccalaureate 2025.</p>
+    </section>
+  </main>
+
+  <!-- Footer section with contact info and social links -->
   <footer>
     <p>Phone: +216 25583914</p>
     <p>WhatsApp: +216 25583914</p>
     <p>
       Follow us:
+      <!-- Social media links opening in new tabs -->
       <a href="https://www.facebook.com/profile.php?id=100063757015547&locale=fr_FR" target="_blank">Facebook</a> |
       <a href="https://www.instagram.com/spoon.chef/" target="_blank">Instagram</a>
     </p>
     <p>Location: P693+PJ2, Av. de Paris, El Mourouj, Tunis</p>
+    
+    <!-- Inspirational quote styled as blockquote -->
     <blockquote>"Quality, Price, Cleanliness — Our Promise to You."</blockquote>
   </footer>
+
+  <!-- Link to external JavaScript file that handles dynamic page behavior -->
   <script src="js3.js"></script>
 </body>
 </html>
