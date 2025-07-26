@@ -1,4 +1,2 @@
 # Final-Project-web-site-squeleton-
-Project Description for Instructor
-
 I developed a simple yet functional restaurant website consisting of three pages: Home, Menu, and Staff. Each page is built with clean and semantic HTML structure to organize content logically. The site is styled using an external CSS stylesheet that ensures a consistent and professional appearance across all pages, featuring a dark background with white text and warm accent colors to enhance readability and aesthetics. Responsive design techniques, including media queries and a toggleable navigation menu controlled by JavaScript, were implemented to make the website accessible and user-friendly on both desktop and mobile devices. The JavaScript adds interactivity by enabling the navigation menu to be shown or hidden on smaller screens, improving the overall user experience.
